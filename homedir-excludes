@@ -1,0 +1,159 @@
+# directories not worth a backup
+.gradle
+.gvm
+.grails/
+.grails_history
+.vagrant
+.vagrant.d
+.wine
+Downloads
+Games
+Google*
+images-iso-vm
+VirtualBox*
+snap
+.steam
+Steam
+.PlayOnLinux
+Videos
+
+# These directories may definitely be excluded #
+
+# Mounted file systems:
+.gvfs
+.local/share/gvfs-metadata
+
+# Encrypted home directory
+.Private
+.ecryptfs
+
+# Session-specific:
+/.dbus
+.cache
+/.Trash
+.Trash-1*
+.local/share/Trash
+/Trash
+
+# Cached info about audio CDs:
+.cddb
+
+# Cached packages lists:
+.aptitude
+
+#Files:
+
+# Contains errors from the current graphical session
+.xsession-errors
+.wayland-errors
+
+# Recently used files
+.local/share/RecentDocuments
+.recently-used
+.recently-used.xbel
+recently-used.xbel
+.thumbnails
+.thumb
+Thumbs.db
+.DS_Store
+.localised
+.bash_history
+.CFUserTextEncoding
+
+# Common Unix Printing System
+/.cups
+
+# run-time configuration information for Subversion
+/.subversion
+
+# Python virtual environments
+/.virtualenvs
+
+# Session-specific
+.Xauthority
+.ICEauthority
+.gksu.lock
+.pulse
+.pulse-cookie
+.esd_auth
+
+#Firefox-specific (see also Profile folder):
+.mozilla/firefox/*/Cache
+.mozilla/firefox/*/minidumps
+.mozilla/firefox/*/.parentlock
+.mozilla/firefox/*/urlclassifier3.sqlite
+.mozilla/firefox/*/blocklist.xml
+.mozilla/firefox/*/extensions.sqlite
+.mozilla/firefox/*/extensions.sqlite-journal
+.mozilla/firefox/*/extensions.rdf
+.mozilla/firefox/*/extensions.ini
+.mozilla/firefox/*/extensions.cache
+.mozilla/firefox/*/XUL.mfasl
+.mozilla/firefox/*/XPC.mfasl
+.mozilla/firefox/*/xpti.dat
+.mozilla/firefox/*/compreg.dat
+.mozilla/firefox/*/pluginreg.dat
+.mozilla/firefox/*/lock
+
+
+# Thunderbird Cache in your profile folder
+.thunderbird/*/Cache
+
+#Opera-specific (related question on Superuser.com: Is documentation available on files and directories in the Opera profile folder?):
+
+.opera/temporary_downloads
+.opera/cache
+.opera/thumbnails
+.opera/opcache
+.opera/icons
+.opera/application_cache
+.opera/widgets/*/cache
+.opera/lock
+
+# Keychain dir (manage SSH and GPG keys, front-end to ssh-agent and ssh-add)
+/.keychain
+
+#GnuPG:
+.gnupg/rnd
+.gnupg/random_seed
+.gnupg/.#*
+.gnupg/*.lock
+.gnupg/gpg-agent-info-*
+
+#Google Earth:
+.googleearth/Temp
+.googleearth/Cache
+
+#Google Chrome:
+.config/google-chrome/Default/Local Storage
+.config/google-chrome/Default/Session Storage
+.config/google-chrome/Default/Application Cache
+.config/google-chrome/Default/History Index *
+
+#Chromium:
+.config/chromium/Default/Local Storage
+.config/chromium/Default/Session Storage
+.config/chromium/Default/Application Cache
+.config/chromium/Default/History Index *
+
+#Local repositories (added by errantlinguist on 2015-04-13):
+.gradle/caches
+/.m2/repository
+
+#indexer
+.local/share/zeitgeist
+
+# Slack
+.config/Slack/SS
+.config/Slack/SingletonCookie
+.config/Slack/SingletonLock
+
+#Other
+.java/deployment/cache
+.java/.userPrefs/jetbrains/_*
+nohup.out
+tmp
+.config/libreoffice/4/cache
+.local/share/play.it
+**/bats
+
